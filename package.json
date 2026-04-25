@@ -1,0 +1,19 @@
+{
+  "name": "wrapper_agents_ai",
+  "version": "0.1.0",
+  "description": "CLI wrapper for Codex project onboarding and interaction recovery.",
+  "type": "module",
+  "bin": {
+    "str-codex": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node ./src/cli.js"
+  },
+  "keywords": [
+    "codex",
+    "cli",
+    "wrapper",
+    "sessions"
+  ],
+  "license": "MIT"
+}
